@@ -20,7 +20,7 @@ public class TestDeliveryCard {
 
     @Test
     public void positiveTest() {
-        open("http://localhost:7777");
+        open("http://localhost:9999");
         $(By.cssSelector("[placeholder='Город']")).sendKeys("Москва");
         $(By.cssSelector("[name='name']")).sendKeys("Ермолина Валерия");
         $(By.cssSelector("[name='phone']")).sendKeys("+79666666666");
